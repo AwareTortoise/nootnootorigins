@@ -15,7 +15,8 @@
         "morgan:strong_arms",
         "morgan:strong_arms_break_speed",
         "morgan:beast_buffs",
-        "morgan:the_true_beast_remove"
+        "morgan:the_true_beast_remove",
+        "morgan:less_armour"
 	],
 	"icon": {
 		"item": "minecraft:ender_eye"

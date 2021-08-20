@@ -1,5 +1,6 @@
 {
     "type": "origins:action_on_callback",
+    "hidden": true,
     "entity_action_chosen": {
         "type": "origins:execute_command",
         "command": "tag @s add morph",

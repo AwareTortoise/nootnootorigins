@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_item_use",
   "name": "Madness",
-	"description": "Your madness has made you incapable of using a bow or shield",
+	"description": "Your madness has made you incapable of using a bow or shield, and you cannot wear armour as well decreasing their efficiency",
   "item_condition": {
     "type": "origins:ingredient",
     "ingredient": {
