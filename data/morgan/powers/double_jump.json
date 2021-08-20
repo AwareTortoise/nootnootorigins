@@ -1,0 +1,69 @@
+{
+	"type": "origins:multiple",
+    "hidden": true,
+	"1": {
+		"type": "origins:active_self",
+		"hidden": true,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:add_velocity",
+					"y": 0.75
+				},
+				{
+
+					"type": "origins:add_velocity",
+					"z": 0.1,
+					"space": "local"
+
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "morgan:jump_bool",
+					"change": 1
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "morgan:bool",
+					"comparison": "==",
+					"compare_to": 1
+				},
+
+				{
+					"type": "origins:resource",
+					"resource": "morgan:jump_bool",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				}
+			]
+		},
+		"key": {
+			"key": "key.jump",
+			"continuous": false
+		},
+		"cooldown": 0,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"2": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "morgan:jump_bool",
+			"change": -1
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:on_block"
+		}
+	}
+}
