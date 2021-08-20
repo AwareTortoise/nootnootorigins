@@ -1,0 +1,20 @@
+{
+	"type": "origins:self_action_on_kill",
+    "name": "A Hunger For Death",
+	"description": "Your body has adapted to allow you to gain saturation from the creatures you kill, however you are now unable to eat food",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:feed",
+				"food": 10,
+				"saturation": 10
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "morgan:blood_bar",
+				"change": 1
+			}
+		]
+	},
+	"cooldown": 0
+}

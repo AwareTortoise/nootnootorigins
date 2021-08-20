@@ -1,0 +1,30 @@
+{
+	"powers": [
+		"morgan:shulker_inventory",
+		"origins:natural_armor",
+		"morgan:strong_arms",
+		"morgan:strong_arms_break_speed",
+        "morgan:thicc",
+        "morgan:shulker_close",
+		"morgan:shulker_shell",
+		"morgan:shulker_shell_effects",
+		"morgan:shulker_shell_teleport",
+        "morgan:shulker_shell_arrow_immunity",
+        "morgan:no_jump",
+        "morgan:shulker_shell_slow_attack",
+        "morgan:purple",
+        "morgan:levitation_immunity",
+        "morgan:allow_sleep_in_end",
+        "morgan:neutral_shulker",
+        "morgan:shulker_bullet_immunity",
+		"origins:no_shield",
+		"origins:more_exhaustion"
+	],
+	"icon": {
+		"item": "minecraft:shulker_shell"
+	},
+	"order": 4,
+	"impact": 1,
+    "name": "Better Shulker",
+    "description": "The shulker origin but with more powers"
+}

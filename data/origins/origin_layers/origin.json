@@ -2,6 +2,11 @@
 	"replace": false,
 	"origins": [
 		"awaretortoise:giant",
-		"awaretortoise:catgirl"
+		"awaretortoise:catgirl",
+        "morgan:shulk",
+        "morgan:beast",
+        "morgan:human",
+        "morgan:bloomfolk",
+        "morgan:morph"
 	]
 }

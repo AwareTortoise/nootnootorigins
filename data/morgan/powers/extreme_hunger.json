@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_exhaustion",
+      "name": "Extreme Hunger",
+    "description": "You have a bottemless appetite for death, and thus lose hunger faster",
+  "modifier": {
+    "value": 3,
+    "operation": "multiply_base"
+  }
+}

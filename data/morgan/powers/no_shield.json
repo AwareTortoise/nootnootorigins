@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Madness",
+	"description": "Your madness has made you incapable of using a bow or shield",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:shields"
+    }
+  }
+}

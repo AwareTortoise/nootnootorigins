@@ -1,0 +1,27 @@
+{
+	"powers": [
+		"morgan:no_shield",
+        "morgan:no_food",
+        "morgan:kill_hunger",
+        "morgan:player_kill_hunger",
+        "morgan:extreme_hunger",
+        "morgan:hungry_glow",
+        "morgan:no_bow",
+        "morgan:blood_bar",
+        "morgan:the_true_beast",
+        "morgan:bool",
+        "morgan:the_true_beast_powers",
+        "morgan:remove_bool",
+        "morgan:strong_arms",
+        "morgan:strong_arms_break_speed",
+        "morgan:beast_buffs",
+        "morgan:the_true_beast_remove"
+	],
+	"icon": {
+		"item": "minecraft:ender_eye"
+	},
+	"order": 4,
+	"impact": 3,
+    "name": "The Beast",
+    "description": "Once a human but turned into a monster by insanity. It has insane strength and a craving for death, but lacking any specialities with resistance to damage"
+}
