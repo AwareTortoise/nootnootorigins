@@ -218,6 +218,7 @@
     "minecraft:iron_trapdoor",
     "minecraft:sandstone",
     "minecraft:deepslate",
-    "minecraft:end_stone"
+    "minecraft:end_stone",
+    "minecraft:mossy_stone_brick_slab"
   ]
 }
