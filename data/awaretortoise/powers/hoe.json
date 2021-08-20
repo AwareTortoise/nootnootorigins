@@ -1,0 +1,21 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "awaretortoise:hoes"
+      },
+      "inverted": false
+    }
+  },
+  "modifier": {
+    "name": "Hoe damage up",
+    "operation": "addition",
+    "value": 18.0
+  },
+  "name": "youwu awre a hoe",
+  "description":  "youwu awre a hoe, and hoes dowo mowre damage"
+}

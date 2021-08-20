@@ -1,0 +1,30 @@
+{
+  "type": "origins:self_action_on_hit",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "awaretortoise:lust",
+        "change": 15.0
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "awaretortoise:seduce",
+        "change": -1.0
+      }
+    ]
+  },
+  "target_condition": {
+    "type": "origins:entity_type",
+    "entity_type": "minecraft:player"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "awaretortoise:seduce",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "cooldown": 40,
+  "hidden": true
+}

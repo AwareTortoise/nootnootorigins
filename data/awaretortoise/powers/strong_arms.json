@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_harvest",
+  "description": "You have stong arms, allowing you to break most blocks with your bare fists",
+  "allow": true,
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "awaretortoise:all_stone"
+  },
+  "name": "stwonk arms",
+  "desription": "due to youwr stwength youwu can bweak all stone types" 
+}

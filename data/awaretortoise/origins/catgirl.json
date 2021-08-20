@@ -1,0 +1,24 @@
+{
+  "powers": [
+    "awaretortoise:larger",
+    "awaretortoise:no_sword",
+    "awaretortoise:no_bow",
+    "awaretortoise:hoe",
+    "awaretortoise:seduce_change_resource",
+    "awaretortoise:seduce_effects",
+    "awaretortoise:seduce_recharge",
+    "awaretortoise:seduce",
+    "awaretortoise:lust",
+    "awaretortoise:nine_lives",
+    "awaretortoise:masochist",
+    "awaretortoise:purr_damage_sound",
+    "awaretortoise:strong_arms",
+    "awaretortoise:strong_arms_break_speed",
+    "awaretortoise:summon_simps"
+  ],
+  "icon": "minecraft:milk_bucket",
+  "order": 10,
+  "impact": 2,
+  "name": "Catgirl",
+  "description": "Youwu awre a catgiwl"
+}

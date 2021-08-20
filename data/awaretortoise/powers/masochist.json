@@ -1,0 +1,11 @@
+{
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "awaretortoise:lust",
+    "change": 5.0
+  },
+  "cooldown": 0,
+  "name": "masochist",
+  "description": "due to youwr masochistic tendencies youwu gain horni whenever you take damage"
+}

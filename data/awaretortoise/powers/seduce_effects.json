@@ -1,0 +1,40 @@
+{
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "amplifier": 3,
+          "duration": 100
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:blindness",
+          "amplifier": 3,
+          "duration": 100
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "command": "minecraft:block.pointed_dripstone.drip_lava"
+      }
+    ]
+  },
+  "target_condition": {
+    "type": "origins:entity_type",
+    "entity_type": "minecraft:player"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "awaretortoise:seduce",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "cooldown": 40,
+  "hidden": true
+}

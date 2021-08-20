@@ -1,0 +1,28 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:spawn_entity",
+        "entity_type": "minecraft:vindicator",
+        "tag": "{Team:catgirls,HandItems:[{Count:1,id:iron_axe,tag:{display:{Name:\"\\\"the power of simps protecting their goddess\\\"\"}}},{}],CustomName:\"\\\"Johnny\\\"\"}"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "awaretortoise:lust",
+        "change": -100
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "awaretortoise:lust",
+    "comparison": ">",
+    "compare_to": 100
+  },
+  "cooldown": 0,
+  "hud_render": {
+    "should_render": false
+  }
+}
