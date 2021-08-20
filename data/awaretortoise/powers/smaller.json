@@ -5,7 +5,7 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "scale set 1.33 @s",
+        "command": "scale set 0.39 @s",
         "permission_level": 4
       },
       {
@@ -25,7 +25,7 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "scale set 1.33 @s",
+        "command": "scale set 0.39 @s",
         "permission_level": 4
       },
       {
@@ -52,6 +52,6 @@
 
   },
   "execute_chosen_when_orb": true,
-  "name": "larger",
-  "description": "youwu are swightly tawer"
+  "name": "cat-sized",
+  "description": "youwu awre thwe siwe owf a cat"
 }
