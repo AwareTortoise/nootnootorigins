@@ -1,21 +1,120 @@
 {
-  "type": "origins:modify_damage_dealt",
-  "condition": {
-    "type": "origins:equipped_item",
-    "equipment_slot": "mainhand",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "tag": "awaretortoise:hoes"
-      },
-      "inverted": false
+  "type": "origins:multiple",
+  "hidden": false,
+  "name": "youwu awre a hoe",
+  "description": "youwu awre a hoe, and hoes dowo mowre damage",
+  "1": {
+    "type": "origins:modify_damage_dealt",
+    "hidden": "true",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:wooden_hoe"
+        }
+      }
+    },
+    "modifier": {
+      "name": "Wood hoe damage up",
+      "operation": "addition",
+      "value": 5.0
     }
   },
-  "modifier": {
-    "name": "Hoe damage up",
-    "operation": "addition",
-    "value": 18.0
+  "2": {
+    "type": "origins:modify_damage_dealt",
+    "hidden": "true",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:stone_hoe"
+        }
+      }
+    },
+    "modifier": {
+      "name": "Stone hoe damage up",
+      "operation": "addition",
+      "value": 6.0
+    }
   },
-  "name": "youwu awre a hoe",
-  "description":  "youwu awre a hoe, and hoes dowo mowre damage"
+  "3": {
+    "type": "origins:modify_damage_dealt",
+    "hidden": "true",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:golden_hoe"
+        }
+      }
+    },
+    "modifier": {
+      "name": "Gold hoe damage up",
+      "operation": "addition",
+      "value": 5.0
+    }
+  },
+  "4": {
+    "type": "origins:modify_damage_dealt",
+    "hidden": "true",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:iron_hoe"
+        }
+      }
+    },
+    "modifier": {
+      "name": "iron hoe damage up",
+      "operation": "addition",
+      "value": 6.0
+    }
+  },
+  "5": {
+    "type": "origins:modify_damage_dealt",
+    "hidden": "true",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:diamond_hoe"
+        }
+      }
+    },
+    "modifier": {
+      "name": "Diamond hoe damage up",
+      "operation": "addition",
+      "value": 8.0
+    }
+  },
+  "6": {
+    "type": "origins:modify_damage_dealt",
+    "hidden": "true",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:netherite_hoe"
+        }
+      }
+    },
+    "modifier": {
+      "name": "Netherite hoe damage up",
+      "operation": "addition",
+      "value": 9.0
+    }
+  }
 }

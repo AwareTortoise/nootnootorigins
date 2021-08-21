@@ -8,7 +8,9 @@
 		"origins:no_shield",
 		"awaretortoise:no_bow",
 		"origins:natural_armor",
-		"awaretortoise:weak_to_bows"
+		"awaretortoise:weak_to_bows",
+		"awaretortoise:strong_arms",
+		"awaretortoise:strong_arms_break_speed"
 	],
 	"icon": "minecraft:flint",
 	"order": 10,
