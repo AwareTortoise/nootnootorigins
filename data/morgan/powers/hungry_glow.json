@@ -6,7 +6,7 @@
 		"conditions": [{
 				"type": "origins:food_level",
 				"comparison": "<=",
-				"compare_to": 16
+				"compare_to": 8
 			},
 			{
 				"type": "origins:resource",
