@@ -1,0 +1,10 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+	"name": "fall"
+  },
+   "name": "Float",
+	"description": "Your body is light and you float to the ground.",
+	"hidden": "true"
+}

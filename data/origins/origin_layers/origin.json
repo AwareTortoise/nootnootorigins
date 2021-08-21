@@ -1,12 +1,13 @@
 {
-	"replace": false,
-	"origins": [
-		"awaretortoise:giant",
-		"awaretortoise:catgirl",
-        "morgan:shulk",
-        "morgan:beast",
-        "morgan:human",
-        "morgan:bloomfolk",
-        "morgan:morph"
-	]
+  "replace": false,
+  "origins": [
+    "awaretortoise:giant",
+    "awaretortoise:catgirl",
+    "morgan:shulk",
+    "morgan:beast",
+    "morgan:human",
+    "morgan:bloomfolk",
+    "morgan:morph",
+    "magma_cube:magma_cube"
+  ]
 }

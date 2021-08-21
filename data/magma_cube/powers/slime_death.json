@@ -1,0 +1,44 @@
+{
+	"type": "origins:prevent_death",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+			"type": "origins:execute_command",
+			"command": "execute at @s run scale multiply pehkui:height 0.5",
+			"permission_level": 4
+		}, {
+			"type": "origins:execute_command",
+			"command": "execute at @s run scale multiply pehkui:width 0.5",
+			"permission_level": 4
+		},{
+			"type": "origins:execute_command",
+			"command": "scale subtract pehkui:health 0.4 @s",
+			"permission_level": 4
+		}, {
+			"type": "origins:apply_effect",
+			"effects": [{
+					"effect": "minecraft:regeneration",
+					"amplifier": 0,
+					"duration": 100
+				},
+				{
+					"effect": "minecraft:absorption",
+					"amplifier": 1,
+					"duration": 99999
+				}
+			]
+		}, {
+		    "type": "origins:change_resource",
+            "resource": "magma_cube:has_died",
+            "change": 1
+		}]
+	},
+    "condition": {
+        "type": "origins:resource",
+        "resource": "magma_cube:has_died",
+        "comparison": "==",
+        "compare_to": 0
+    },
+	"name": "Infernal Fragmentation",
+	"description": "Being Half-Magma Cube you get a second chance at life, whenever you would die instead you split into half your size and half your health. This only works once."
+}

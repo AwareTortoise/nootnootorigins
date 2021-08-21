@@ -1,0 +1,20 @@
+{
+	"powers": [
+	"origins:fire_immunity",
+	"magma_cube:lava_walk",
+	"magma_cube:slime_death",
+	"magma_cube:no_fall",
+	"origins:nether_spawn",
+	"magma_cube:lava_jump",
+	"magma_cube:test",
+	"origins:water_vulnerability",
+	"magma_cube:color",
+	"magma_cube:has_died",
+	"magma_cube:has_died_reset"
+	],
+	"icon": "minecraft:magma_cream",
+	"order": 10,
+	"impact": 1,
+	"name": "Magma Cube",
+	"description": "Born in the lava you are invulnerable to fire damage and not only that but you can walk on lava."
+}
