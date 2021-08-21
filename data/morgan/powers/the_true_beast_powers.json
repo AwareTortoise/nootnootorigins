@@ -43,7 +43,7 @@
 				{
 					"type": "origins:change_resource",
 					"resource": "morgan:blood_bar",
-					"change": -1
+					"change": -5
 
 				}
 			]

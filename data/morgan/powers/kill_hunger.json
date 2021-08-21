@@ -33,7 +33,7 @@
 		},
 		"target_condition": {
 			"type": "origins:entity_type",
-			"entity_type": "minecraft:creeper"
+			"entity_type": "minecraft:player"
 		},
 		"cooldown": 1200
 	}

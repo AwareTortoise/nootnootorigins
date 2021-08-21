@@ -1,6 +1,6 @@
 {
 	"type": "origins:multiple",
-    "hidden": true,
+	"hidden": true,
 	"1": {
 		"type": "origins:active_self",
 		"hidden": true,
@@ -21,6 +21,17 @@
 					"type": "origins:change_resource",
 					"resource": "morgan:jump_bool",
 					"change": 1
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:particle.soul_escape",
+					"volume": 100,
+					"pitch": 0.5
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:soul ~ ~-0.1 ~ 0.5 0 0.5 0 50",
+					"permission_level": 4
 				}
 			]
 		},
