@@ -1,0 +1,78 @@
+{
+	"type": "origins:multiple",
+	"hidden": true,
+	"1": {
+		"type": "origins:active_self",
+		"hidden": true,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:add_velocity",
+					"y": 0.5
+				},
+				{
+					"type": "origins:add_velocity",
+					"z": 0.5,
+					"space": "local"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "morgan:jump_bool",
+					"change": 1
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "awaretortoise:seduce",
+					"change": -1
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.cat.hiss",
+					"volume": 5,
+					"pitch": 1
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:heart ~ ~-0.1 ~ 1 0 1 0 20 force",
+					"permission_level": 4
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:resource",
+					"resource": "morgan:jump_bool",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:on_block",
+					"inverted": true
+				}
+			]
+		},
+		"key": {
+			"key": "key.jump",
+			"continuous": false
+		},
+		"cooldown": 0,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"2": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "morgan:jump_bool",
+			"change": -1
+		},
+		"interval": 5,
+		"condition": {
+			"type": "origins:on_block"
+		}
+	}
+}

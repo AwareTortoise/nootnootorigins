@@ -21,7 +21,7 @@
       },
       {
         "type": "origins:play_sound",
-        "command": "minecraft:block.pointed_dripstone.drip_lava"
+        "sound": "minecraft:block.pointed_dripstone.drip_lava"
       }
     ]
   },
