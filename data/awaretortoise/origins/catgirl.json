@@ -14,7 +14,8 @@
     "awaretortoise:purr_damage_sound",
     "awaretortoise:strong_arms",
     "awaretortoise:strong_arms_break_speed",
-    "awaretortoise:summon_simps"
+    "awaretortoise:summon_simps",
+    "awaretortoise:climbing"
   ],
   "icon": "minecraft:milk_bucket",
   "order": 10,

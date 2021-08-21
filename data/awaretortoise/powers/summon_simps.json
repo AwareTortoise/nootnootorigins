@@ -18,7 +18,7 @@
   "condition": {
     "type": "origins:resource",
     "resource": "awaretortoise:lust",
-    "comparison": ">",
+    "comparison": ">=",
     "compare_to": 100
   },
   "cooldown": 0,
