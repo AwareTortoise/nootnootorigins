@@ -29,7 +29,7 @@
 				{
 					"type": "origins:play_sound",
 					"sound": "minecraft:entity.cat.hiss",
-					"volume": 5,
+					"volume": 0.5,
 					"pitch": 1
 				},
 				{

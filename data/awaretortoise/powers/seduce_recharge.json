@@ -5,7 +5,7 @@
     "resource": "awaretortoise:seduce",
     "change": 1.0
   },
-  "interval": 100,
+  "interval": 1000,
   "condition": {
     "type": "origins:resource",
     "resource": "awaretortoise:seduce",
