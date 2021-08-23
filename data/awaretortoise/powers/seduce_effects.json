@@ -8,20 +8,21 @@
         "effect": {
           "effect": "minecraft:slowness",
           "amplifier": 3,
-          "duration": 100
+          "duration": 60
         }
       },
       {
         "type": "origins:apply_effect",
         "effect": {
           "effect": "minecraft:blindness",
-          "amplifier": 3,
-          "duration": 100
+          "amplifier": 2,
+          "duration": 60
         }
       },
       {
         "type": "origins:play_sound",
-        "sound": "minecraft:block.pointed_dripstone.drip_lava"
+        "sound": "minecraft:block.pointed_dripstone.drip_lava",
+        "volume": 3
       }
     ]
   },
@@ -35,6 +36,6 @@
     "comparison": ">",
     "compare_to": 0
   },
-  "cooldown": 40,
+  "cooldown": 100,
   "hidden": true
 }

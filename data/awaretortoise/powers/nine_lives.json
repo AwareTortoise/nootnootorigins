@@ -3,9 +3,9 @@
   "modifier": {
     "name": "Max health decrease",
     "attribute": "minecraft:generic.max_health",
-    "value": -2,
+    "value": -8,
     "operation": "addition"
   },
   "name": "nine lives",
-  "description": "as a cat youwu get nine hearts"
+  "description": "as a cat youwu get five hearts because i say sowo"
 }
