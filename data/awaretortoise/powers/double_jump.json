@@ -27,7 +27,7 @@
 				},
 				{
 					"type": "origins:play_sound",
-					"sound": "minecraft:entity.cat.hiss",
+					"sound": "minecraft:entity.parrot.fly",
 					"volume": 0.5,
 					"pitch": 1
 				},
