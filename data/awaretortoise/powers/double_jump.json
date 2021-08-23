@@ -77,7 +77,7 @@
 			{
 				"type": "origins:resource",
 				"resource": "awaretortoise:jumps",
-				"comparison": ">",
+				"comparison": "<",
 				"compare_to": 4
 			}
 		]
