@@ -11,8 +11,8 @@
             {
 				"type": "origins:play_sound",
 				"sound": "minecraft:entity.ghast.hurt",
-				"volume": 10000,
-				"pitch": 0.6
+				"volume": 8000,
+				"pitch": 0.4
 			},
             {
 				"type": "origins:play_sound",

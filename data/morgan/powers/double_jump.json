@@ -72,7 +72,7 @@
 			"resource": "morgan:jump_bool",
 			"change": -1
 		},
-		"interval": 5,
+		"interval": 2,
 		"condition": {
 			"type": "origins:on_block"
 		}
