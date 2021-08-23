@@ -18,13 +18,12 @@
 				},
 				{
 					"type": "origins:change_resource",
-					"resource": "morgan:jump_bool",
-					"change": 1
+					"resource": "awaretortoise:jumps",
+					"change": -1
 				},
 				{
-					"type": "origins:change_resource",
-					"resource": "awaretortoise:seduce",
-					"change": -1
+					"type": "origins:exhaust",
+					"amount": 0.4
 				},
 				{
 					"type": "origins:play_sound",
@@ -43,6 +42,12 @@
 			"type": "origins:and",
 			"conditions": [
 				{
+					"type": "origins:resource",
+					"resource": "awaretortoise:jumps",
+					"comparison": ">",
+					"compare_to": 0
+				},
+				{
 					"type": "origins:on_block",
 					"inverted": true
 				}
@@ -52,7 +57,7 @@
 			"key": "key.jump",
 			"continuous": false
 		},
-		"cooldown": 0,
+		"cooldown": 20,
 		"hud_render": {
 			"should_render": false
 		}
@@ -61,12 +66,20 @@
 		"type": "origins:action_over_time",
 		"entity_action": {
 			"type": "origins:change_resource",
-			"resource": "morgan:jump_bool",
-			"change": -1
+			"resource": "awaretortoise:jumps",
+			"change": 1
 		},
-		"interval": 5,
-		"condition": {
-			"type": "origins:on_block"
-		}
+		"interval": 40,
+		"conditions": [
+			{
+				"type": "origins:on_block"
+			},
+			{
+				"type": "origins:resource",
+				"resource": "awaretortoise:jumps",
+				"comparison": ">",
+				"compare_to": 4
+			}
+		]
 	}
 }

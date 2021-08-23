@@ -15,8 +15,9 @@
     "awaretortoise:summon_simps",
     "awaretortoise:climbing",
     "awaretortoise:cat_fall",
-    "morgan:jump_bool",
-    "awaretortoise:double_jump"
+    "awaretortoise:double_jump",
+    "origins:carnivore",
+    "awaretortoise:jumps"
   ],
   "icon": "minecraft:milk_bucket",
   "order": 10,
