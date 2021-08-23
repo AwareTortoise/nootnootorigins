@@ -18,12 +18,14 @@
 				"effects": [{
 						"effect": "minecraft:speed",
 						"duration": 400,
-						"amplifier": 9
+						"amplifier": 9,
+                        "is_ambient": true
 					},
 					{
 						"effect": "minecraft:jump_boost",
 						"duration": 400,
-						"amplifier": 2
+						"amplifier": 2,
+                        "is_ambient": true
 					}
 				]
 			},
