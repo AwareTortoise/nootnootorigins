@@ -1,8 +1,8 @@
 {
   "type": "origins:multiple",
   "hidden": false,
-  "name": "youwu awre a hoe",
-  "description": "youwu awre a hoe, and hoes dowo mowre damage",
+  "name": "A Test of Loyalty",
+  "description": "Yourwr twue woyaltwy towu the Qweween owf the Gowodes awwows uu towu smwite dowon owers wiwith a hoe.",
   "1": {
     "type": "origins:modify_damage_dealt",
     "hidden": "true",

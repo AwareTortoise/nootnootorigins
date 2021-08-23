@@ -1,7 +1,7 @@
 {
   "type": "origins:climbing",
   "name": "Climbing",
-  "description": "You can climb up walls",
+  "description": "U-u cwan cwimb uwup wawws.",
   "hold_condition": {
     "type": "origins:and",
     "conditions": [
