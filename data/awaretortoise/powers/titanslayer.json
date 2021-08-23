@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "morgan:size_level",
+    "comparison": "==",
+    "compare_to": 5
+  },
+  "modifier": {
+    "name": "Extra damage when submerged",
+    "operation": "multiply_total",
+    "value": 1.0
+  }
+}

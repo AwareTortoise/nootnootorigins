@@ -12,6 +12,11 @@
         "type": "origins:change_resource",
         "resource": "awaretortoise:seduce",
         "change": -1.0
+      },
+      {
+        "type": "origins:feed",
+        "food": 2,
+        "saturation": 2
       }
     ]
   },

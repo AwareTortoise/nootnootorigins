@@ -57,7 +57,7 @@
 			"key": "key.jump",
 			"continuous": false
 		},
-		"cooldown": 20,
+		"cooldown": 0,
 		"hud_render": {
 			"should_render": false
 		}
@@ -69,17 +69,6 @@
 			"resource": "awaretortoise:jumps",
 			"change": 1
 		},
-		"interval": 40,
-		"conditions": [
-			{
-				"type": "origins:on_block"
-			},
-			{
-				"type": "origins:resource",
-				"resource": "awaretortoise:jumps",
-				"comparison": "<",
-				"compare_to": 4
-			}
-		]
+		"interval": 20
 	}
 }
