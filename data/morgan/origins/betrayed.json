@@ -12,20 +12,22 @@
         "morgan:bool",
         "morgan:the_true_beast_powers",
         "morgan:remove_bool",
-        "morgan:strong_arms",
+        "morgan:miners_arms",
         "morgan:strong_arms_break_speed",
         "morgan:beast_buffs",
         "morgan:the_true_beast_remove",
         "morgan:less_armour",
         "morgan:jump_bool",
         "morgan:double_jump",
-        "morgan:dash"
+        "morgan:dash",
+        "morgan:happy_villager",
+        "morgan:just_fucking_explode"
 	],
 	"icon": {
 		"item": "minecraft:ender_eye"
 	},
 	"order": 4,
 	"impact": 3,
-    "name": "The betrayed",
-    "description": "A poor soul betrayed by the gods. You now have to subsist on the souls and pain of others to live."
+    "name": "The Betrayed",
+    "description": "A poor soul, smitten by the Gods from whom you once learned their power. You are now cursed to sustain yourself upon the lifeforce of others in order to survive."
 }

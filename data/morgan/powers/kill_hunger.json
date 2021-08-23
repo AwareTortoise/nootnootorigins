@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
-	"name": "A Hunger For Death",
-	"description": "Your body has adapted to allow you to gain saturation from the creatures you kill, however you are now unable to eat food",
+	"name": "A Mania for Pain",
+	"description": "You are tantalised with an inability to consume regular food, having been cursed to receive sustenance from the pain of others.",
 	"1": {
 		"type": "origins:self_action_on_kill",
 		"entity_action": {

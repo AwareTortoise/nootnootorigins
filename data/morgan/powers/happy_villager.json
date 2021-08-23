@@ -7,7 +7,7 @@
         		"actions": [
             			{
                 			"type": "origins:execute_command",
-                			"command": "data modify storage hated vill set value {Type: \"trading\", Value: 50}",
+                			"command": "data modify storage hated vill set value {Type: \"trading\", Value: 75}",
                 			"permission_level": 4
             			},
             			{

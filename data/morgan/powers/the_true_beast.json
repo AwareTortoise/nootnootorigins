@@ -1,7 +1,7 @@
 {
 	"type": "origins:active_self",
 	"name": "Ancient Powers",
-	"description": "After the death of 1000 creatures, you can release incredible powers for a short amount of time",
+	"description": "After you liberate 1000 creatures, you are able to release the  powers of the Pantheon for a short period of time.",
 	"key": {
 		"key": "key.origins.primary_active",
 		"continuous": false
