@@ -1,0 +1,34 @@
+{
+    "type": "origins:active_self",
+    
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "summon creeper ~ ~ ~ {powered:1, ignited:1, Fuse:0}",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slow_falling",
+                        "amplifier": 1,
+                        "duration": 100
+                    }
+                }
+            ]
+        },
+
+        "cooldown": 2400,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 14,
+            "should_render": true
+        }
+
+}

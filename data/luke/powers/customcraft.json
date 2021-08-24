@@ -1,0 +1,26 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "id": "origins:orb_of_origin",
+        "pattern": [
+            "#a ",
+            "aba",
+            " a#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:netherite_ingot"
+            },
+            "a": {
+                "item": "minecraft:diamond"
+            },
+            "b": {
+                "item": "minecraft:nether_star"
+            }
+        },
+        "result": {
+            "item": "origins:orb_of_origin"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "luke:notexplode",
+        "luke:1.5",
+        "luke:creeperignore",
+        "luke:explode",
+        "luke:bigexplode",
+        "luke:gunpowderspeed"
+
+    ],
+
+    "icon": {
+        "item": "minecraft:creeper_spawn_egg"
+    },
+    "order": 4,
+    "impact": 2,
+    "name": "Creeper",
+    "description": "The creeper that can be played"
+
+}
