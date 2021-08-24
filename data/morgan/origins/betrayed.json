@@ -21,7 +21,8 @@
         "morgan:double_jump",
         "morgan:dash",
         "morgan:happy_villager",
-        "morgan:just_fucking_explode"
+        "morgan:just_fucking_explode",
+        "morgan:extra_craftings"
 	],
 	"icon": {
 		"item": "minecraft:ender_eye"
