@@ -1,7 +1,7 @@
 {
 	"type": "origins:active_self",
-	"name": "Ancient Powers",
-	"description": "After you liberate 1000 creatures, you are able to release the  powers of the Pantheon for a short period of time.",
+	"name": "A Silver Lining",
+	"description": "After you liberate 1000 creatures, you are able to release the powers of the Pantheon for a short period of time.",
 	"key": {
 		"key": "key.origins.primary_active",
 		"continuous": false
