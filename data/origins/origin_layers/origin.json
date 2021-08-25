@@ -8,6 +8,7 @@
     "morgan:human",
     "morgan:bloomfolk",
     "morgan:morph",
-    "magma_cube:magma_cube"
+    "magma_cube:magma_cube",
+    "luke:creeper"
   ]
 }

@@ -1,7 +1,7 @@
 {
 	"type": "origins:action_over_time",
-    "name": "A Powerful Hunger"
-    "description": "If you fail to fulfil your cursed Hunger, the hidden fury of the Gods will cause you to explode with the death of a Thousand creatures."
+	"name": "A Powerful Hunger",
+	"description": "If you fail to fulfil your cursed Hunger, the hidden fury of the Gods will cause you to explode with the death of a Thousand creatures.",
 	"entity_action": {
 		"type": "origins:and",
 		"actions": [{
@@ -10,37 +10,37 @@
 				"volume": 10000,
 				"pitch": 2
 			},
-            {
+			{
 				"type": "origins:play_sound",
 				"sound": "minecraft:entity.ghast.hurt",
 				"volume": 8000,
 				"pitch": 0.4
 			},
-            {
+			{
 				"type": "origins:play_sound",
 				"sound": "minecraft:entity.axolotl.death",
 				"volume": 10000,
 				"pitch": 0.6
 			},
-            {
+			{
 				"type": "origins:play_sound",
 				"sound": "minecraft:entity.blaze.death",
 				"volume": 10000,
 				"pitch": 0.6
 			},
-            {
+			{
 				"type": "origins:play_sound",
 				"sound": "minecraft:entity.cat.death",
 				"volume": 10000,
 				"pitch": 0.6
 			},
-            {
+			{
 				"type": "origins:play_sound",
 				"sound": "minecraft:entity.creeper.hurt",
 				"volume": 10000,
 				"pitch": 0.6
 			},
-            {
+			{
 				"type": "origins:play_sound",
 				"sound": "minecraft:entity.dolphin.death",
 				"volume": 10000,
