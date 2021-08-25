@@ -1,0 +1,24 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:feed",
+				"food": 1,
+                "saturation": 0
+			},
+			{
+				"type": "origins:change_resource",
+				"resource": "morgan:blood_bar",
+				"change": 1
+			}
+		]
+	},
+	"interval": 10,
+	"condition": {
+		"type": "origins:biome",
+
+		"biome": "minecraft:soul_sand_valley"
+
+	}
+}

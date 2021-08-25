@@ -219,6 +219,7 @@
     "minecraft:sandstone",
     "minecraft:deepslate",
     "minecraft:end_stone",
-    "minecraft:mossy_stone_brick_slab"
+    "minecraft:mossy_stone_brick_slab",
+    "minecraft:sand"
   ]
 }

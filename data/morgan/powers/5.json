@@ -1,6 +1,7 @@
 {
 	"type": "origins:multiple",
     "hidden": true,
+    "description": "DISCLAIMER: Dick size does not scale with Morph-Size, and you are stuck with the smallest size's penis (1/2")"
 	"1": {
 		"type": "origins:action_over_time",
 		"entity_action": {

@@ -1,5 +1,7 @@
 {
 	"type": "origins:action_over_time",
+    "name": "A Powerful Hunger"
+    "description": "If you fail to fulfil your cursed Hunger, the hidden fury of the Gods will cause you to explode with the death of a Thousand creatures."
 	"entity_action": {
 		"type": "origins:and",
 		"actions": [{
