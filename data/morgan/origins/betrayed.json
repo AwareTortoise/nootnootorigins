@@ -24,7 +24,8 @@
         "morgan:happy_villager",
         "morgan:just_fucking_explode",
         "morgan:extra_craftings",
-        "morgan:soul_sand_valley"
+        "morgan:soul_sand_valley",
+        "morgan:testing"
 	],
 	"icon": {
 		"item": "minecraft:ender_eye"

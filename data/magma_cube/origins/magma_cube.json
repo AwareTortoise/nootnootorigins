@@ -10,7 +10,8 @@
 	"origins:water_vulnerability",
 	"magma_cube:color",
 	"magma_cube:has_died",
-	"magma_cube:has_died_reset"
+	"magma_cube:has_died_reset",
+    "morgan:lava_vision"
 	],
 	"icon": "minecraft:magma_cream",
 	"order": 10,
