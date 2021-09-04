@@ -13,7 +13,7 @@
 				},
 				{
 					"type": "origins:add_velocity",
-					"z": 0.5,
+					"z": 0.5
 					"space": "local"
 				},
 				{
@@ -69,6 +69,10 @@
 			"resource": "awaretortoise:jumps",
 			"change": 1
 		},
-		"interval": 20
+		"interval": 5,
+        "condition": {	
+					"type": "origins:on_block"
+			
+		}
 	}
 }
