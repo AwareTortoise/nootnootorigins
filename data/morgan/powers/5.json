@@ -59,7 +59,7 @@
 		},
 		"modifier": {
 			"operation": "multiply_total",
-			"value": 2
+			"value": 1.5
 		}
 	},
 	"4": {
@@ -92,6 +92,31 @@
 			"resource": "morgan:size_level",
 			"comparison": "==",
 			"compare_to": 4
+		}
+	},
+	"6": {
+		"type": "origins:phasing",
+		"blacklist": false,
+		"render_type": "remove_blocks",
+		"block_condition": {
+			"type": "origins:in_tag",
+			"tag": "morgan:leaves"
+		},
+		"phase_down_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:sneaking"
+				},
+				{
+					"type": "origins:on_block"
+				}
+			]
+		},
+        "condition": {
+			"type": "origins:resource",
+			"resource": "morgan:size_level",
+			"comparison": "==",
+			"compare_to": 5
 		}
 	}
 }

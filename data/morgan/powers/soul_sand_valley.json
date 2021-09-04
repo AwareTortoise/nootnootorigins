@@ -1,5 +1,7 @@
 {
 	"type": "origins:action_over_time",
+    "name": "Soul Absorption",
+    "description": "You can absorb the souls which are trapped in the soul sand valley",
 	"entity_action": {
 		"type": "origins:and",
 		"actions": [{

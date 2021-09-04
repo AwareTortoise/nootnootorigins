@@ -70,5 +70,34 @@
 			"comparison": "==",
 			"compare_to": 1
 		}
+	},
+	"3": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "multiply_base",
+			"value": 0.5
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "morgan:bool",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:netherite_sword"
+						}
+					}
+				}
+			]
+		}
 	}
 }
