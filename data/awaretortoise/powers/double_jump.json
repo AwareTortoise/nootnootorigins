@@ -6,7 +6,8 @@
 		"hidden": true,
 		"entity_action": {
 			"type": "origins:and",
-			"actions": [{
+			"actions": [
+				{
 					"type": "origins:add_velocity",
 					"y": 0.5
 				},
@@ -39,7 +40,8 @@
 		},
 		"condition": {
 			"type": "origins:and",
-			"conditions": [{
+			"conditions": [
+				{
 					"type": "origins:resource",
 					"resource": "awaretortoise:jumps",
 					"comparison": ">",
@@ -68,18 +70,9 @@
 			"change": 1
 		},
 		"interval": 5,
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
+        "condition": {	
 					"type": "origins:on_block"
-				},
-				{
-					"type": "origins:resource",
-					"resource": "awaretortoise:jumps",
-					"comparison": "<",
-					"compare_to": 3
-				}
-			]
+			
 		}
 	}
 }

@@ -7,189 +7,116 @@
 		"type": "origins:modify_damage_dealt",
 		"hidden": "true",
 		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:wooden_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0,
-					"inverted": true
-
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:wooden_hoe"
 				}
-			]
+			}
 		},
 		"modifier": {
 			"name": "Wood hoe damage up",
-			"operation": "multiply_base",
-			"value": 3.0
+			"operation": "addition",
+			"value": 4.0
 		}
 	},
 	"2": {
 		"type": "origins:modify_damage_dealt",
 		"hidden": "true",
 		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:stone_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0,
-					"inverted": true
-
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:stone_hoe"
 				}
-			]
+			}
 		},
 		"modifier": {
 			"name": "Stone hoe damage up",
-			"operation": "multiply_base",
-			"value": 4.0
+			"operation": "addition",
+			"value": 5.0
 		}
 	},
 	"3": {
 		"type": "origins:modify_damage_dealt",
 		"hidden": "true",
 		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:golden_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0,
-					"inverted": true
-
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:golden_hoe"
 				}
-			]
+			}
 		},
 		"modifier": {
 			"name": "Gold hoe damage up",
-			"operation": "multiply_base",
-			"value": 3.0
+			"operation": "addition",
+			"value": 4.0
 		}
 	},
 	"4": {
 		"type": "origins:modify_damage_dealt",
 		"hidden": "true",
 		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:iron_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0,
-					"inverted": true
-
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:iron_hoe"
 				}
-			]
+			}
 		},
 		"modifier": {
 			"name": "iron hoe damage up",
-			"operation": "multiply_base",
-			"value": 5.0
+			"operation": "addition",
+			"value": 4.0
 		}
 	},
 	"5": {
 		"type": "origins:modify_damage_dealt",
 		"hidden": "true",
 		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:diamond_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0,
-					"inverted": true
-
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:diamond_hoe"
 				}
-			]
+			}
 		},
 		"modifier": {
 			"name": "Diamond hoe damage up",
-			"operation": "multiply_base",
-			"value": 6.0
+			"operation": "addition",
+			"value": 7.0
 		}
 	},
 	"6": {
 		"type": "origins:modify_damage_dealt",
 		"hidden": "true",
 		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:netherite_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0,
-					"inverted": true
-
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:netherite_hoe"
 				}
-			]
+			}
 		},
 		"modifier": {
 			"name": "Netherite hoe damage up",
-			"operation": "multiply_base",
-			"value": 7.0
+			"operation": "addition",
+			"value": 8.0
 		}
 	},
-
 	"7": {
 		"type": "origins:modify_damage_dealt",
 		"hidden": "true",
@@ -197,21 +124,10 @@
 			"type": "origins:equipped_item",
 			"equipment_slot": "mainhand",
 			"item_condition": {
-				"type": "origins:and",
-				"conditions": [{
-						"type": "origins:enchantment",
-						"enchantment": "minecraft:efficiency",
-						"comparison": "==",
-						"compare_to": 1
-					},
-					{
-						"type": "origins:ingredient",
-						"ingredient": {
-							"tag": "awaretortoise:hoes"
-						}
-
-					}
-				]
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:efficiency",
+				"comparison": "==",
+				"compare_to": 1
 			}
 		},
 		"modifier": {
@@ -227,21 +143,10 @@
 			"type": "origins:equipped_item",
 			"equipment_slot": "mainhand",
 			"item_condition": {
-				"type": "origins:and",
-				"conditions": [{
-						"type": "origins:enchantment",
-						"enchantment": "minecraft:efficiency",
-						"comparison": "==",
-						"compare_to": 2
-					},
-					{
-						"type": "origins:ingredient",
-						"ingredient": {
-							"tag": "awaretortoise:hoes"
-						}
-
-					}
-				]
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:efficiency",
+				"comparison": "==",
+				"compare_to": 2
 			}
 		},
 		"modifier": {
@@ -257,21 +162,10 @@
 			"type": "origins:equipped_item",
 			"equipment_slot": "mainhand",
 			"item_condition": {
-				"type": "origins:and",
-				"conditions": [{
-						"type": "origins:enchantment",
-						"enchantment": "minecraft:efficiency",
-						"comparison": "==",
-						"compare_to": 3
-					},
-					{
-						"type": "origins:ingredient",
-						"ingredient": {
-							"tag": "awaretortoise:hoes"
-						}
-
-					}
-				]
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:efficiency",
+				"comparison": "==",
+				"compare_to": 3
 			}
 		},
 		"modifier": {
@@ -287,21 +181,10 @@
 			"type": "origins:equipped_item",
 			"equipment_slot": "mainhand",
 			"item_condition": {
-				"type": "origins:and",
-				"conditions": [{
-						"type": "origins:enchantment",
-						"enchantment": "minecraft:efficiency",
-						"comparison": "==",
-						"compare_to": 4
-					},
-					{
-						"type": "origins:ingredient",
-						"ingredient": {
-							"tag": "awaretortoise:hoes"
-						}
-
-					}
-				]
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:efficiency",
+				"comparison": "==",
+				"compare_to": 4
 			}
 		},
 		"modifier": {
@@ -317,147 +200,16 @@
 			"type": "origins:equipped_item",
 			"equipment_slot": "mainhand",
 			"item_condition": {
-				"type": "origins:and",
-				"conditions": [{
-						"type": "origins:enchantment",
-						"enchantment": "minecraft:efficiency",
-						"comparison": "==",
-						"compare_to": 5
-					},
-					{
-						"type": "origins:ingredient",
-						"ingredient": {
-							"tag": "awaretortoise:hoes"
-						}
-
-					}
-				]
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:efficiency",
+				"comparison": "==",
+				"compare_to": 5
 			}
 		},
 		"modifier": {
 			"name": "Efficiency hoe damage up",
 			"operation": "addition",
 			"value": 3
-		}
-	},
-	"13": {
-		"type": "origins:modify_damage_dealt",
-		"hidden": "true",
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:stone_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0
-				}
-			]
-
-		},
-		"modifier": {
-			"name": "Stone hoe damage up",
-			"operation": "addition",
-			"value": 1.0
-		}
-	},
-	"15": {
-		"type": "origins:modify_damage_dealt",
-		"hidden": "true",
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:iron_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0
-
-				}
-			]
-		},
-		"modifier": {
-			"name": "iron hoe damage up",
-			"operation": "addition",
-			"value": 2.0
-		}
-	},
-	"16": {
-		"type": "origins:modify_damage_dealt",
-		"hidden": "true",
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:diamond_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0
-
-				}
-			]
-		},
-		"modifier": {
-			"name": "Diamond hoe damage up",
-			"operation": "addition",
-			"value": 3.0
-		}
-	},
-	"17": {
-		"type": "origins:modify_damage_dealt",
-		"hidden": "true",
-		"condition": {
-			"type": "origins:and",
-			"conditions": [{
-					"type": "origins:equipped_item",
-					"equipment_slot": "mainhand",
-					"item_condition": {
-						"type": "origins:ingredient",
-						"ingredient": {
-							"item": "minecraft:netherite_hoe"
-						}
-					}
-
-				},
-				{
-					"type": "origins:status_effect",
-					"effect": "minecraft:strength",
-					"min_amplifier": 0
-
-				}
-			]
-		},
-		"modifier": {
-			"name": "Netherite hoe damage up",
-			"operation": "addition",
-			"value": 4.0
 		}
 	}
 }

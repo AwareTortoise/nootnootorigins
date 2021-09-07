@@ -1,0 +1,36 @@
+{
+	"powers": [
+		"morgan:no_shield",
+        "morgan:no_food",
+        "morgan:kill_hunger",
+        "morgan:player_kill_hunger",
+        "morgan:extreme_hunger",
+        "morgan:hungry_glow",
+        "morgan:no_bow",
+        "morgan:blood_bar",
+        "morgan:the_true_beast",
+        "morgan:bool",
+        "morgan:the_true_beast_powers",
+        "morgan:the_true_beast_buffs",
+        "morgan:remove_bool",
+        "morgan:miners_arms",
+        "morgan:strong_arms_break_speed",
+        "morgan:beast_buffs",
+        "morgan:the_true_beast_remove",
+        "morgan:less_armour",
+        "morgan:jump_bool",
+        "morgan:double_jump",
+        "morgan:dash",
+        "morgan:happy_villager",
+        "morgan:just_fucking_explode",
+        "morgan:extra_craftings",
+        "morgan:soul_sand_valley"
+	],
+	"icon": {
+		"item": "minecraft:ender_eye"
+	},
+	"order": 4,
+	"impact": 3,
+    "name": "The Betrayed",
+    "description": "A poor soul, smitten by the Gods from whom you once learned their power. You are now cursed to sustain yourself upon the lifeforce of others in order to survive."
+}
