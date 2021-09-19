@@ -7,14 +7,14 @@
 		"conditions": [{
 
 				"type": "origins:block_collision",
-				"offset_x": 0.01,
-				"offset_z": 0.01,
+				"offset_x": 0.1,
+				"offset_z": 0.1,
 				"offset_y": 0
 			},
 			{
 				"type": "origins:block_collision",
-				"offset_x": -0.01,
-				"offset_z": -0.01,
+				"offset_x": -0.1,
+				"offset_z": -0.1,
 				"offset_y": 0
 			}
 

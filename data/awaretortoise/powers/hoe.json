@@ -459,5 +459,119 @@
 			"operation": "addition",
 			"value": 4.0
 		}
+	},
+    "18": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "addition",
+			"value": 1.5
+		},
+		"tick_rate": 2,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+                "type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:wooden_hoe"
+				}
+			}
+		}
+	},
+    "19": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "addition",
+			"value": 0.5
+		},
+		"tick_rate": 2,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+                "type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:stone_hoe"
+				}
+			}
+		}
+	},
+    "20": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "addition",
+			"value": 1.5
+		},
+		"tick_rate": 2,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+                "type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:golden_hoe"
+				}
+			}
+		}
+	},
+    "21": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "addition",
+			"value": -0.5
+		},
+		"tick_rate": 2,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+                "type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:iron_hoe"
+				}
+			}
+		}
+	},
+    "22": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "addition",
+			"value": -1.5
+		},
+		"tick_rate": 2,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+                "type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:diamond_hoe"
+				}
+			}
+		}
+	},
+    "23": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "addition",
+			"value": -1.5
+		},
+		"tick_rate": 2,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+                "type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:netherite_hoe"
+				}
+			}
+		}
 	}
 }

@@ -112,11 +112,44 @@
 				}
 			]
 		},
-        "condition": {
+		"condition": {
 			"type": "origins:resource",
 			"resource": "morgan:size_level",
 			"comparison": "==",
 			"compare_to": 5
 		}
+	},
+	"7": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "addition",
+			"value": -0.4
+		},
+		"tick_rate": 2,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "morgan:size_level",
+			"comparison": "==",
+			"compare_to": 4
+		}
+	},
+	"8": {
+		"type": "origins:modify_damage_taken",
+		"damage_condition": {
+			"type": "origins:projectile"
+		},
+		"modifier": {
+			"name": "Weak to arrows",
+			"operation": "multiply_base",
+			"value": 6
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "morgan:size_level",
+			"comparison": "==",
+			"compare_to": 4
+		}
+
 	}
 }

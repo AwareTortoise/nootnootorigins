@@ -79,7 +79,7 @@
 			"value": -0.9,
 			"operation": "multiply_total"
 		},
-        "condition": {
+		"condition": {
 			"type": "origins:resource",
 			"resource": "morgan:size_level",
 			"comparison": "==",
@@ -116,5 +116,31 @@
 			"comparison": "==",
 			"compare_to": 0
 		}
+	},
+	"6": {
+		"type": "origins:modify_falling",
+		"velocity": 0.0005,
+		"take_fall_damage": false,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "morgan:size_level",
+					"comparison": "==",
+					"compare_to": 0
+				},
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:paper"
+						}
+					}
+				}
+			]
+		}
+
 	}
 }

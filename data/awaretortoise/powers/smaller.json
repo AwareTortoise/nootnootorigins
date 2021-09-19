@@ -15,7 +15,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "scale set pehkui:motion 4 @s",
+        "command": "scale set pehkui:motion 3.5 @s",
         "permission_level": 4
       },
       {
@@ -45,7 +45,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "scale set pehkui:motion 4 @s",
+        "command": "scale set pehkui:motion 3.5 @s",
         "permission_level": 4
       },
       {
